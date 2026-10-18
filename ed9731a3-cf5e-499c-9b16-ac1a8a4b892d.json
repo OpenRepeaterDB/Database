@@ -1,0 +1,14 @@
+{
+  "callsign": "TEST2",
+  "city": "Milwaukee",
+  "country": "US",
+  "downlink": 146.52,
+  "lat": 43.07175564702089,
+  "lng": -87.03068764532244,
+  "notes": "This is just a test",
+  "offset": -0.52,
+  "owner_website": "https://example.com",
+  "region": "Wisconsin",
+  "uplink_tone": null,
+  "last_updated": 1792285541686
+}
