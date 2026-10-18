@@ -1,0 +1,41 @@
+name: Update repeaters in other repositories
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  update-repos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: OpenRepeaterDB
+          repositories: OpenRepeaterDB
+          permission-contents: write
+
+      - name: Checkout OpenRepeaterDB
+        uses: actions/checkout@v4
+        with:
+          repository: OpenRepeaterDB/OpenRepeaterDB
+          token: ${{ steps.generate-token.outputs.token }}
+          path: OpenRepeaterDB
+          submodules: recursive
+    
+      - name: Update submodules
+        working-directory: OpenRepeaterDB
+        run: |
+          git submodule update --init --remote --recursive
+          git config user.name "openrepeaterdb-contributions[bot]"
+          git config user.email "343700207+openrepeaterdb-contributions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Update repeaters"
+          git push
