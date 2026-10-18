@@ -1,0 +1,14 @@
+{
+  "callsign": "KL7AA",
+  "city": "Fishhook",
+  "country": "US",
+  "downlink": 443.9,
+  "lat": 61.761711728346285,
+  "lng": -149.28174088440682,
+  "notes": "Cross-linked to 147.33",
+  "offset": 5,
+  "owner_website": "https:/kl7aa.org",
+  "region": "Alaska",
+  "uplink_tone": 103.5,
+  "last_updated": 1792290934245
+}
