@@ -10,5 +10,6 @@
   "owner_website": "https://kl7aa.org",
   "region": "Alaska",
   "uplink_tone": 141.3,
+  "uplink_tone_type": "ctcss",
   "last_updated": 1792196914281
 }

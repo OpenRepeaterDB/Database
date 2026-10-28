@@ -5,10 +5,12 @@
   "downlink": 145.27,
   "lat": 45.36846991253489,
   "lng": -94.70102333150228,
-  "notes": "Tone is DCS",
+  "notes": "",
   "offset": -0.6,
   "owner_website": "https://the-darc-room.com",
   "region": "Minnesota",
-  "uplink_tone": 172,
+  "uplink_code": 172,
+  "uplink_polarity": "positive",
+  "uplink_tone_type": "dcs",
   "last_updated": 1793142386489
 }
