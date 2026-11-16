@@ -1,0 +1,16 @@
+{
+  "callsign": "KD0YLG",
+  "city": "Becker",
+  "country": "US",
+  "downlink": 147.345,
+  "lat": 45.37842025020859,
+  "lng": -93.89754933476975,
+  "approximate_location": true,
+  "notes": "",
+  "offset": 0.6,
+  "owner_website": "https://the-darc-room.com/",
+  "region": "Minnesota",
+  "uplink_tone_type": "dcs",
+  "last_updated": 1794795446605,
+  "uplink_code": "172"
+}
