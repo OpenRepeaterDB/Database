@@ -1,0 +1,15 @@
+{
+  "callsign": "KD0YLG",
+  "city": "Saint Cloud",
+  "country": "US",
+  "downlink": 443.85,
+  "lat": 45.5680173593025,
+  "lng": -94.15852042432267,
+  "notes": "Approximate location",
+  "offset": 5,
+  "owner_website": "https://the-darc-room.com",
+  "region": "Minnesota",
+  "uplink_tone_type": "dcs",
+  "last_updated": 1794793954643,
+  "uplink_code": "172"
+}
