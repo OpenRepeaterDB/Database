@@ -5,6 +5,7 @@
   "downlink": 145.27,
   "lat": 45.36846991253489,
   "lng": -94.70102333150228,
+  "approximate_location": true,
   "notes": "",
   "offset": -0.6,
   "owner_website": "https://the-darc-room.com",

@@ -5,6 +5,7 @@
   "downlink": 224.94,
   "lat": 61.03954039014755,
   "lng": -149.68815017354578,
+  "approximate_location": true,
   "notes": "",
   "offset": -1.6,
   "owner_website": "https://kl7aa.org",

@@ -5,7 +5,7 @@
   "downlink": 443.85,
   "lat": 45.5680173593025,
   "lng": -94.15852042432267,
-  "notes": "Approximate location",
+  "approximate_location": true,
   "offset": 5,
   "owner_website": "https://the-darc-room.com",
   "region": "Minnesota",
