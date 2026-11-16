@@ -1,0 +1,16 @@
+{
+  "callsign": "KD0YLG",
+  "city": "Paynesville",
+  "country": "US",
+  "downlink": 224.8,
+  "lat": 45.368560269043,
+  "lng": -94.70021709746295,
+  "approximate_location": true,
+  "notes": "",
+  "offset": -1.6,
+  "owner_website": "https://the-darc-room.com/",
+  "region": "Minnesota",
+  "uplink_tone_type": "dcs",
+  "last_updated": 1794795938343,
+  "uplink_code": "172"
+}
